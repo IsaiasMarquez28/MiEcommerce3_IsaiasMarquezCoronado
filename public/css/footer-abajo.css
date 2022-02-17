@@ -1,0 +1,74 @@
+footer {
+  display: flex;
+  width: 100%;
+  border-top: grey 1px solid;
+  height: 64px;
+  bottom: 0;
+  z-index: 100;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  opacity: 0.5;
+  margin: 0px auto 0 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.derechos {
+  margin: 0 auto 0 auto;
+  display: flex;
+  opacity: 0.5;
+  justify-content: center;
+  align-items: center;
+}
+
+.tiendas {
+  margin: 0px 20px 0 auto;
+  opacity: 0.5;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.grupo1 {
+  height: 30px;
+}
+
+@media (max-width: 600px) {
+  footer {
+    display: flex;
+    width: 100%;
+    border-top: grey 1px solid;
+    height: 64px;
+    bottom: 0;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    gap: 8px;
+  }
+
+  .social-media {
+    order: 2;
+    margin: 0;
+  }
+
+  .derechos {
+    order: 1;
+    margin: 0;
+    text-align: center;
+  }
+
+  .tiendas {
+    order: 3;
+    margin: 0;
+  }
+
+  .grupo1 {
+    height: 30px;
+  }
+}
